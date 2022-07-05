@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #97CBA9;
+  --branding-color: #97cba9;
   --secondary-color: #f8fbf9;
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Poppins", sans-serif;
@@ -39,7 +39,7 @@ p {
   line-height: 30px;
 }
 
-a{
+a {
   color: var(--branding-color);
 }
 
@@ -131,6 +131,7 @@ a{
 
 nav {
   padding: 20px 0;
+  text-align: end;
 }
 
 nav ul {
@@ -216,6 +217,9 @@ footer .social-links a:hover {
 
   .project-desciption {
     padding: 0;
+    text-align: center;
+  }
+  nav {
     text-align: center;
   }
 }

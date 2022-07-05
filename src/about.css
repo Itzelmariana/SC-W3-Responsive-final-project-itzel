@@ -121,6 +121,7 @@ p {
 
 nav {
   padding: 20px 0;
+  text-align: end;
 }
 
 nav ul {
@@ -210,5 +211,8 @@ footer .social-links a:hover {
   }
   img {
     display: none;
+  }
+  nav {
+    text-align: center;
   }
 }
